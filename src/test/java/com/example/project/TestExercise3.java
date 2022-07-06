@@ -105,7 +105,7 @@ public class TestExercise3 {
     }
 
     boolean result = obj.bstEstrictamenteBinario(tree1);
-    boolean expected = false;
+    boolean expected = true;
 
     assertEquals(expected, result, "La salida esperada es: " + expected + " pero fue retornado: " + result);
   }
